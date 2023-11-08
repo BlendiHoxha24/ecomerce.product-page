@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ecomerce product page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        
+        <div id="Links"> 
+            <span>
+
+                <h1>sneakers</h1>
+                <a class="link-style" href="">Collection</a>
+                <a class="link-style selected-link" href="">Men</a>
+                <a class="link-style" href="">Women</a>
+                <a class="link-style" href="">About</a>
+                <a class="link-style" href="">Contact</a>    
+            </span>
+        </div>
+        <div id="Profile">
+
+            <button id="Shopping-Cart-Button"><i class="fa-solid fa-cart-shopping"></i></button>
+            <button id="Profile-Button">
+                <img src="img/image-avatar.png" alt="">
+            </button>
+        </div>
+    </nav>
+    <main>
+
+        <section id="Product-Images">
+            <div id="Product-Images-Large">
+                <img src="img/image-product-1.jpg" alt="Large-Image" class=" img-style large-img">
+            </div>
+            <div id="Product-Images-Small">
+                <img class="img-style small-img selected-img" src="img/image-product-1-thumbnail.jpg" alt="">
+                <img class="img-style small-img"src="img/image-product-2-thumbnail.jpg" alt="">
+                <img class="img-style small-img"src="img/image-product-3-thumbnail.jpg" alt="">
+                <img class="img-style small-img"src="img/image-product-4-thumbnail.jpg" alt="">
+            </div>
+        </section>
+        <section id="Product-Description">
+            <div id="Product-Title">
+                <h3>Sneaker Company</h3>
+                <h1>Fall Limited Edition Sneakers</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni nulla accusamus maiores nesciunt numquam inventore!</p>
+            </div>
+            <div id="Product-Price">
+                <span id="Current-Price-Span">
+                    <h2 id="Current-Price">$125.00</h2>
+                    <h4>50%</h4>
+                </span>
+                <span id="Old-Price-Span">
+                    <h4>$250.00</h4>
+                    
+                </span>
+            </div>
+            <div id="Buttons">
+                <div id="Product-Amount-Buttons">
+                    <button id="Product-Amount-Decrease" class="button-style amount-button" >-</button>
+                    <h4 id="Product-Amount-Display">0</h4>
+                    <button id="Product-Amount-Increase" class="button-style amount-button">+</button>
+                </div>
+                <button id="Add-To-Cart-Button" class="button-style primary-button"> Add to cart</button>
+            </div>
+            
+        </section>
+            
+            
+    </main>
+    </body>
+    </html>
